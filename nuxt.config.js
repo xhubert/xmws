@@ -4,6 +4,9 @@ import VuetifyLoaderPlugin from 'vuetify-loader/lib/plugin';
 import { app, server } from './config';
 import pkg from './package.json';
 
+const isProduction = process.env.NODE_ENV === 'production';
+const prdHost = 'https://xmws.heroku.com';
+
 export default {
   /*
    ** Headers of the page
@@ -63,7 +66,7 @@ export default {
    */
   axios: {
     // See https://github.com/nuxt-community/axios-module#options
-    baseURL: `http://${server.host}:${server.port}`,
+    baseURL: isProduction ? `${prdHost}` : `http://${server.host}:${server.port}`,
     credentials: true
   },
   srcDir: 'client/',
