@@ -13,7 +13,7 @@
     "dev": "cross-env NODE_ENV=development backpack dev",
     "build": "cross-env NODE_ENV=production nuxt build && backpack build",
     "serve": "cross-env NODE_ENV=production node build/main.js",
-    "start": "npm run build && npm run serve",
+    "start": "npm run serve",
     "heroku-postbuild": "npm run build",
     "pm2": "cross-env NODE_ENV=production pm2 start build/main.js --name xmws",
     "precommit": "npm run lint",
