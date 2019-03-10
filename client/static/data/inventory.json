@@ -1,0 +1,24 @@
+{
+  "conditions": {
+    "new": "New",
+    "no": "No Listing"
+  },
+  "tOfdays": {
+    "below90": "inv-age-0-to-90-days",
+    "between91and180": "inv-age-91-to-180-days",
+    "between181and270": "inv-age-181-to-270-days",
+    "between271and365": "inv-age-271-to-365-days",
+    "above365": "inv-age-365-plus-days"
+  },
+  "unitsShipped": {
+    "unitsShippedIn7": "units-shipped-last-7-days",
+    "unitsShippedIn30": "units-shipped-last-30-days",
+    "unitsShippedIn90": "units-shipped-last-90-days",
+    "unitsShippedIn180": "units-shipped-last-180-days"
+  },
+  "basicIdx": {
+    "sku": "sku",
+    "sellableQty": "sellable-quantity",
+    "name": "product-name"
+  }
+}
