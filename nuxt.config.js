@@ -5,7 +5,7 @@ import { app, server } from './config';
 import pkg from './package.json';
 
 const isProduction = process.env.NODE_ENV === 'production';
-const prdHost = 'https://xmws.heroku.com';
+const prdHost = 'https://xmws.herokuapp.com';
 
 export default {
   /*
