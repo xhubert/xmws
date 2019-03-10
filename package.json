@@ -6,9 +6,6 @@
   "author": "Hubert Fan",
   "license": "MIT",
   "private": true,
-  "engines": {
-    "node": ">=8.12.0"
-  },
   "scripts": {
     "dev": "NODE_ENV=development backpack dev",
     "build": "NODE_ENV=production nuxt build && backpack build",

@@ -11,7 +11,7 @@ const appConfig = {
     // process.env.HOST || '127.0.0.1';
     port: process.env.NODE_ENV === 'development' ? 3000 : (process.env.PORT || 5000),
     // process.env.PORT || 3000;
-    host: process.env.NODE_ENV === 'development' ? '127.0.0.1' : '127.0.0.1',
+    host: process.env.NODE_ENV === 'development' ? '127.0.0.1' : '0.0.0.0',
     // Secret is for jwt. (both koa-jwt and jsonwebtoken)
     secret: '-xmws-app-secret-',
     // xmws-of-cloudy-bay-lighting
